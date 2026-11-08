@@ -1,0 +1,51 @@
+* { font-family: "Inter", "Cantarell", sans-serif; font-size: 13px; transition-duration: 0s; }
+window { background: #101318; color: #edf1f7; }
+.sidebar { background: #151a21; padding: 26px 20px; border-right: 1px solid #282f38; }
+.main { padding: 22px 22px 18px; }
+.brand { color: #f3f6fa; font-size: 20px; font-weight: 800; letter-spacing: -0.7px; }
+.eyebrow { color: #7f91a3; font-size: 10px; font-weight: 700; letter-spacing: 1.1px; }
+.heading { font-size: 26px; font-weight: 800; color: #f1f5f9; letter-spacing: -0.6px; }
+.muted { color: #91a1b3; font-size: 12px; }
+.empty-title { font-size: 23px; font-weight: 700; }
+button { background: #232c37; background-image: none; color: #e9eff6; border: 1px solid #354150; border-radius: 10px; padding: 10px 14px; box-shadow: none; text-shadow: none; }
+button:hover { background: #2c3845; border-color: #5b7288; }
+button:focus { border-color: #baf79c; outline-width: 0; }
+button.primary { background: #baf79c; color: #172515; border-color: #baf79c; font-weight: 700; }
+button.primary:hover { background: #d1ffba; }
+button.nav { background: transparent; border-color: transparent; border-left: 3px solid transparent; padding: 13px 14px; color: #9baabc; font-weight: 600; }
+button.nav:hover { background: #1c2530; color: #f1f5f9; }
+button.nav.selected { background: #243329; color: #c8f7af; border-left-color: #baf79c; }
+button.chip { background: #1b222c; border-color: #303a48; border-radius: 18px; padding: 7px 17px; color: #afbdd0; font-size: 12px; }
+button.chip:hover { background: #2c3b31; border-color: #638256; color: #d3f5c4; }
+entry.search { background: #1a212a; border: 1px solid #333e4b; color: #eef3f8; border-radius: 12px; padding: 13px 16px; box-shadow: none; caret-color: #baf79c; }
+entry.search:focus { border-color: #8ab879; }
+.sound-card { background: #191f28; border: 1px solid #34414d; border-radius: 9px; padding: 0; }
+.sound-card:hover { border-color: #baf79c; }
+button.sound-play { background: transparent; border: none; border-radius: 8px; padding: 0; }
+button.sound-play:hover { background: transparent; }
+.sound-title { font-size: 13px; font-weight: 700; color: #f1f5f9; padding: 8px; background: rgba(13,18,25,0.9); border-radius: 0 0 8px 8px; }
+.author { font-size: 11px; color: #91a2b8; padding: 0px 4px; }
+.broadcast-label { color: #c7f4ae; font-size: 12px; font-weight: 700; padding: 3px 5px; }
+.cover-tag { background: rgba(14,20,28,0.87); color: #eef4f9; border: 1px solid rgba(255,255,255,0.13); border-radius: 5px; padding: 3px 5px; font-size: 10px; font-weight: 700; }
+button.add { background: #293d2e; color: #c4f5ac; border-color: #3d5940; padding: 8px; font-size: 11px; }
+button.add:hover { background: #36523a; }
+button.saved { background: #25342b; color: #a1c4a8; border-color: #3a4d40; padding: 8px; font-size: 11px; }
+button.subtle { background: #202a35; color: #aabbd0; padding: 8px; font-size: 11px; border-color: #344150; }
+button.tile-action { min-width: 16px; min-height: 16px; padding: 4px; border-radius: 5px; background: rgba(16,23,31,0.9); border-color: rgba(215,235,245,0.22); font-size: 12px; }
+button.tile-action:hover { background: #354538; border-color: #baf79c; }
+button.saved.tile-action { color: #baf79c; }
+.player { background: #1a242b; border: 1px solid #35494a; border-radius: 14px; padding: 16px; }
+.status { color: #c2d0dc; font-size: 12px; }
+button.stop { background: #3c272e; color: #ffb6c2; border-color: #65414c; padding: 10px 16px; }
+button.stop:hover { background: #55323c; }
+combobox button { padding: 8px 6px; font-size: 11px; border-radius: 8px; }
+checkbutton { font-size: 11px; }
+scale trough { background: #303c49; min-height: 5px; border: none; }
+scale highlight { background: #baf79c; border: none; }
+scale slider { background: #e1fbd4; border: none; min-width: 14px; min-height: 14px; }
+separator { background: #2a3541; min-height: 1px; }
+flowboxchild { padding: 0; }
+flowboxchild:selected { background: transparent; }
+scrolledwindow { border: none; }
+scrollbar trough { background: #101318; }
+scrollbar slider { background: #37475a; border-radius: 6px; min-width: 6px; }
